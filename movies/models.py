@@ -8,7 +8,7 @@ class Profile(models.Model):
     phone_number = models.CharField(max_length=13, blank=True)
     event_name = models.CharField(max_length=50, blank=True)
 
-    def __str__(self):
-        return User.first_name + " " + User.last_name
+    # def __str__(self):
+    #     return User.first_name + " " + User.last_name
 
 

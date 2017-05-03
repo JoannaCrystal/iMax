@@ -122,3 +122,5 @@ STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/movies/account_redirect'
 
+AUTH_PROFILE_MODULE ='movies.Profile'
+

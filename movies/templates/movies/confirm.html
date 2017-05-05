@@ -3,8 +3,9 @@
 {% block content %}
   <body onload="document.test.submit()">
 <!--<form name="test" method="post" action="http://127.0.0.1:8000/movies/">-->
-<form name="test" method="post" action="http://ec2-52-14-223-254.us-east-2.compute.amazonaws.com/">
+<form name="test" method="post" action="http://ec2-52-14-223-254.us-east-2.compute.amazonaws.com">
     <input type="hidden" name="name" value={{ name }} />
     <input type="hidden" name="phone" value={{ phone_number }} />
+    <input type="hidden" name="event_id" value="abc"/>
 </form>
 {% endblock %}
